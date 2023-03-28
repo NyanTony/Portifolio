@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+
+}
+
+.Apresentacao {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    margin: 10% 20%;
+}
+
+.Apresentacao_conteudo {
+    width: 615px;
+    /*Olhar no projeto do
+    Figma*/
+    display: flex;
+    flex-direction: column;
+    /*posicionando
+    elementos na vertical*/
+    gap: 40px;
+    /*verificar no Figma*/
+    /* o
+    gap é o espaçamento entre elementos*/
+
+}
+
+.Apresentacao_conteudo_titulo {
+    width: 593px;
+    height: 168px;
+
+    font-family: 'Krona One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+
+
+    color: #F6F6F6;
+
+}
+
+.Apresentacao_conteudo_texto {
+    width: 593px;
+    height: 144px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #F6F6F6;
+
+}
+
+.destaque {
+    color: #22D4FD;
+}
+
+.Apresentacao_butoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Apresentacao_butoes_link {
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Apresentacao_butoes_link:hover {
+    background-color: #0f7890;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 467.71px;
+    height: 532px;
+    border-radius: 16px;
+
+}
