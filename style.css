@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    /*height: 100vh;*/
+    box-sizing: border-box;
+    background-color: var(--cor-tercearia);
+    color: var(--cor-tercearia);
+
+}
+
+:root {
+    --cor-primaria: #FF0000;
+    --cor-secundaria: #FFB90F;
+    --cor-tercearia: #1A1A1A;
+    --cor-hover: #e7838d;
+    --cor-hover2: #A67C00;
+    /*--cor-secundaria:  #FDBF11;*/
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 5%;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.cabecalho_menu {
+    display: flex;
+    gap: 20px;
+
+}
+
+.cabecalho_menu_link {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: px;
+    font-weight: 400x;
+    color: var(--cor-secundaria);
+    padding: 5px;
+    border: 2px solid var(--cor-secundaria);
+    border-radius: 10px;
+
+}
+
+.cabecalho_menu_link:hover {
+    color: var(--cor-hover2)
+}
+
+.Apresentacao {
+    display: flex;
+    align-items: center;
+    padding: 4% 15%;
+    justify-content: space-between;
+    margin: 10% 15%;
+
+}
+
+.Apresentacao_conteudo {
+    width: 615px;
+    /*Olhar no projeto do
+    Figma*/
+    display: flex;
+    flex-direction: column;
+    /*posicionando
+    elementos na vertical*/
+    gap: 40px;
+    /*verificar no Figma*/
+    /* o
+    gap é o espaçamento entre elementos*/
+
+}
+
+.Apresentacao_conteudo_titulo {
+    width: 593px;
+    height: 168px;
+
+    font-family: 'Krona One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+
+
+    color: var(--cor-secundaria);
+
+}
+
+.Apresentacao_butoes_subtitulo {
+    color: var(--cor-secundaria);
+}
+
+.Apresentacao_conteudo_texto {
+    width: 593px;
+    height: 144px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: var(--cor-secundaria);
+
+}
+
+.destaque {
+    color: var(--cor-primaria);
+}
+
+.Apresentacao_butoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.Apresentacao_butoes_link {
+    display: flex;
+    justify-content: center;
+    /*alinhando no
+   centro*/
+    gap: 16px;
+    border: 2px solid var(--cor-primaria);
+    /*tamanho da linha, tracejado, e
+   cor*/
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Apresentacao_butoes_link:hover {
+    background-color: var(--cor-hover);
+}
+
+.Apresentacao_butoes_subtitulo {
+
+    font-family: 'Krona One', sans serif;
+    font-weight: 400;
+    size: 24px;
+}
+
+.img {
+    width: 467.71px;
+    height: 532px;
+    border-radius: 16px;
+    border: 2px solid var(--cor-primaria);
+}
+
+.rodape {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+    padding: 23px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.rodape2 {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+    padding: 23px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: fixed;
+
+
+}
