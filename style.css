@@ -157,7 +157,6 @@ body {
 }
 
 .rodape {
-    position: fixed;
     color: var(--cor-secundaria);
     background-color: var(--cor-primaria);
     padding: 2% 0% 0% 5%;
