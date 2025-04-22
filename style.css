@@ -12,6 +12,7 @@ body {
     box-sizing: border-box;
     background-color: var(--cor-tercearia);
     color: var(--cor-tercearia);
+    padding-bottom: 60px;
 
 }
 
