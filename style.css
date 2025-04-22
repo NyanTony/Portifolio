@@ -66,7 +66,7 @@ body {
     display: flex;
     flex-direction:row;
 }
-.Apresentacao_conteudo {
+.conteudo {
     width: 615px;
     display: flex;
     flex-direction: column;
@@ -74,7 +74,7 @@ body {
 
 }
 
-.Apresentacao_conteudo_titulo {
+.conteudo_titulo {
     width: 553px;
     height: 118px;
 
@@ -92,7 +92,7 @@ body {
     color: var(--cor-secundaria);
 }
 
-.Apresentacao_conteudo_texto {
+.conteudo_texto {
     width: 543px;
     height: 104px;
 
