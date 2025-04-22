@@ -56,6 +56,13 @@ body {
     color: var(--cor-hover2)
 }
 
+/*Fim cabeçalho*/
+
+/*topo do site*/
+section.topo-site{
+    padding: 40px
+}
+
 .Apresentacao {
     padding: 4% 15%;
     justify-content: space-between;
