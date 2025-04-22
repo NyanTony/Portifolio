@@ -63,15 +63,11 @@ section.topo-site{
     padding: 40px 4%;
 }
 
-.Apresentacao {
-    padding: 4% 15%;
-    justify-content: space-between;
-    margin: 10% 15%;
-
-}
 .flex{
     display: flex;
     flex-direction:row;
+    align-items: center;
+    justify-content: center;
 }
 .conteudo {
     width: 615px;
