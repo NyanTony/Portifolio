@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
+/* Formatação Geral */
 *
     {
 
@@ -28,6 +29,17 @@ body
     {
         max-width: 1280px;
         margin: 0 auto;
-
     }
-    
+
+/* Cabeçalho */
+
+header
+{
+    padding: 40px 4%;
+}
+header > .interface
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
