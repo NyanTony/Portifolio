@@ -57,14 +57,15 @@ body {
 }
 
 .Apresentacao {
-    display: flex;
-    align-items: center;
     padding: 4% 15%;
     justify-content: space-between;
     margin: 10% 15%;
 
 }
-
+.flex{
+    display: flex;
+    flex-direction:row;
+}
 .Apresentacao_conteudo {
     width: 40%;
     display: flex;
@@ -188,6 +189,9 @@ body {
         line-height: 24px;
 
 
+    }
+    .flex{
+        flex-direction: column-reverse;
     }
   
     .img {
