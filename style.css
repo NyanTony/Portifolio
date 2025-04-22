@@ -160,6 +160,7 @@ body {
     position: fixed;
     color: var(--cor-secundaria);
     background-color: var(--cor-primaria);
+    padding: 2% 0% 0% 5%;
     padding: 23px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
