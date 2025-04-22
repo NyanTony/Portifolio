@@ -67,7 +67,7 @@ body {
     flex-direction:row;
 }
 .Apresentacao_conteudo {
-    width: 615px
+    width: 615px;
     display: flex;
     flex-direction: column;
     gap: 40px;
