@@ -119,12 +119,8 @@ body {
 .Apresentacao_butoes_link {
     display: flex;
     justify-content: center;
-    /*alinhando no
-   centro*/
     gap: 16px;
     border: 2px solid var(--cor-primaria);
-    /*tamanho da linha, tracejado, e
-   cor*/
     width: 378px;
     text-align: center;
     border-radius: 8px;
