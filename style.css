@@ -75,8 +75,8 @@ body {
 }
 
 .Apresentacao_conteudo_titulo {
-    width: 593px;
-    height: 168px;
+    width: 553px;
+    height: 118px;
 
     font-family: 'Krona One', sans-serif;
     font-style: normal;
@@ -93,13 +93,13 @@ body {
 }
 
 .Apresentacao_conteudo_texto {
-    width: 593px;
-    height: 144px;
+    width: 543px;
+    height: 104px;
 
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 28px;
     line-height: 36px;
 
     color: var(--cor-secundaria);
