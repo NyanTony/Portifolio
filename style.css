@@ -47,6 +47,7 @@ body {
     padding: 5px;
     border: 2px solid var(--cor-secundaria);
     border-radius: 10px;
+    cursor: pointer;
 
 }
 
@@ -114,6 +115,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 32px;
+    cursor: pointer;
 }
 
 .Apresentacao_butoes_link {
@@ -130,10 +132,12 @@ body {
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 .Apresentacao_butoes_link:hover {
     background-color: var(--cor-hover);
+
 }
 
 .Apresentacao_butoes_subtitulo {
