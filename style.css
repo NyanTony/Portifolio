@@ -149,8 +149,8 @@ body {
 }
 
 .img {
-    width: 90%;
-    height: auto;
+    width: 467.71px;
+    height: 532px;
     border-radius: 16px;
     border: 2px solid var(--cor-primaria);
 }
