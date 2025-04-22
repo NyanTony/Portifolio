@@ -69,13 +69,7 @@ section.topo-site{
     align-items: center;
     justify-content: center;
 }
-.conteudo {
-    width: 615px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
 
-}
 
 .conteudo_titulo {
 
@@ -96,12 +90,8 @@ section.topo-site{
 
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    align-items: center;
-
 
     color: var(--cor-secundaria);
-
 }
 
 .destaque {
