@@ -1,30 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Portifolio</title>
-  </head>
 
-  <body>
-    <header class="cabecalho">
-      <div class="interface">
-          <nav class="cabecalho_menu">
-              <ul>
-                  <li><a class="cabecalho_menu_link" href="index.html">Home</a></li>
-                  <li><a class="cabecalho_menu_link" href="about.html">Sobre mim</a></li>
-                  <li><a class="cabecalho_menu_link" href="Portifolio.html">Portifolio</a></li>
-              </ul>
-          </nav>
-      </div> <!--interface fecha-->
-  </header>
-    <div class="Apresentacao_butoes">
-      <a class="Apresentacao_butoes_link" href="./QR_code/index.html">QR Code</a>
-      <a class="Apresentacao_butoes_link" href="./redes_socias/index.html">Redes Sociais Links</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+ 
+  <title>Portifolio</title>
+</head>
+
+<body>
+  <header class="cabecalho">
+    <div class="interface">
+      <nav class="cabecalho-menu">
+        <ul>
+          <li><a class="cabecalho_menu_link" href="index.html">Home</a></li>
+          <li><a class="cabecalho_menu_link" href="about.html">Sobre mim</a></li>
+          <li><a class="cabecalho_menu_link" href="Portifolio.html">Portifolio</a></li>
+        </ul>
+      </nav>
+      <div class="abrir" id="btn-abrir">
+        <i class="bi bi-list"></i>
     </div>
-    <footer class="rodape">Desenvolvido por Tony</footer>
-  </body>
+<div class="menu-mobile" id="mob-menu">
+    <div class="fechar">
+        <i class="bi bi-x-lg"></i>
+    </div> <!--fechar-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Sobre mim</a></li>
+            <li><a href="Portifolio.html">Portifolio</a></li>
+        </ul>
+    </nav>
+</div> <!--menu-->
+    <div class="fechar">
+        <i class="bi bi-x-lg"></i>
+    </div> <!--fechar-->
+    <div class="overlay-menu" id="overflow"></div>
+    </div> <!--interface fecha-->
+  </header>
+  <main>
+    <section class="topo-site">
+    <div class="botao">
+      <a href="./QR_code/index.html">QR Code</a>
+      <a href="./redes_socias/index.html">Redes Sociais Links</a>
+    </div>
+    </section>
+  </main>
+  <footer>
+    
+    <div class="roda">Desenvolvido por Tony</div>
+
+  </footer>
+</body>
 
 </html>
