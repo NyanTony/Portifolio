@@ -75,14 +75,9 @@ body {
 }
 
 .conteudo_titulo {
-    width: 553px;
-    height: 118px;
 
     font-family: 'Krona One', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 56px;
 
     color: var(--cor-secundaria);
 
@@ -99,15 +94,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    gap: 32px;
-    padding-bottom: 100px;
-    padding-top: 100px;
+
 
     color: var(--cor-secundaria);
 
