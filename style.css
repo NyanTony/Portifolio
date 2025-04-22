@@ -12,7 +12,6 @@ body {
     box-sizing: border-box;
     background-color: var(--cor-tercearia);
     color: var(--cor-tercearia);
-    padding-bottom: 60px;
 
 }
 
@@ -29,7 +28,6 @@ body {
     padding: 2% 0% 0% 5%;
     color: var(--cor-secundaria);
     background-color: var(--cor-primaria);
-    padding: 10px;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -43,8 +41,8 @@ body {
 .cabecalho_menu_link {
 
     font-family: 'Montserrat', sans-serif;
-    font-size: px;
-    font-weight: 400x;
+    font-size: 16px;
+    font-weight: 400;
     color: var(--cor-secundaria);
     padding: 5px;
     border: 2px solid var(--cor-secundaria);
@@ -146,7 +144,7 @@ body {
 
     font-family: 'Krona One', sans serif;
     font-weight: 400;
-    size: 24px;
+    font-size: 24px;
 }
 
 .img {
@@ -160,7 +158,6 @@ body {
     color: var(--cor-secundaria);
     background-color: var(--cor-primaria);
     padding: 2% 0% 0% 5%;
-    padding: 23px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
