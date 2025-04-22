@@ -9,7 +9,6 @@
 }
 
 body {
-    /*height: 100vh;*/
     box-sizing: border-box;
     background-color: var(--cor-tercearia);
     color: var(--cor-tercearia);
@@ -67,16 +66,9 @@ body {
 
 .Apresentacao_conteudo {
     width: 615px;
-    /*Olhar no projeto do
-    Figma*/
     display: flex;
     flex-direction: column;
-    /*posicionando
-    elementos na vertical*/
     gap: 40px;
-    /*verificar no Figma*/
-    /* o
-    gap é o espaçamento entre elementos*/
 
 }
 
@@ -164,6 +156,7 @@ body {
 }
 
 .rodape {
+    position: fixed;
     color: var(--cor-secundaria);
     background-color: var(--cor-primaria);
     padding: 23px;
@@ -171,15 +164,4 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 400;
-}
-.rodape2 {
-    color: var(--cor-secundaria);
-    background-color: var(--cor-primaria);
-    padding: 23px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-
-
 }
