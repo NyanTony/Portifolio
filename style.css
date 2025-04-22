@@ -33,6 +33,7 @@ body {
 }
 
 .cabecalho_menu {
+    padding-bottom: 20px;
     display: flex;
     gap: 20px;
 
